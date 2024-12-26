@@ -89,8 +89,8 @@
             <groupId>de.saxsys</groupId>
             <artifactId>mvvmfx</artifactId>
             <version>1.9.0-SNAPSHOT</version>
-            <!--            <scope>system</scope>-->
-            <!--            <systemPath>${pom.basedir}/libs/mvvmfx-1.9.0-SNAPSHOT.jar</systemPath>-->
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/libs/mvvmfx-1.9.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>de.saxsys</groupId>
@@ -190,7 +190,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.30</version>
         </dependency>
         <dependency>
             <groupId>datafx-core</groupId>
@@ -205,13 +205,13 @@
             <artifactId>logback-classic</artifactId>
             <version>1.4.5</version>
         </dependency>
+        <dependency>
+            <groupId>net.jodah</groupId>
+            <artifactId>typetools</artifactId>
+            <version>0.5.0</version>
+        </dependency>
     </dependencies>
-
-
     <build>
-
-
-
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -253,10 +253,7 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
     </build>
-
 
 </project>

@@ -12,7 +12,7 @@
 
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <app.name>DillonFX</app.name>
         <app.version>1.0.0</app.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -25,7 +25,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
 
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <openjfx.version>17.0.7</openjfx.version>
         <sass.version>1.54.4</sass.version>
         <atlantafx.version>2.0.1</atlantafx.version>
@@ -49,8 +49,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-
             <dependency>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-controls</artifactId>
@@ -161,7 +159,6 @@
     <build>
         <pluginManagement>
             <plugins>
-
                 <plugin>
                     <groupId>us.hebi.sass</groupId>
                     <artifactId>sass-cli-maven-plugin</artifactId>
@@ -170,7 +167,6 @@
                         <sassVersion>1.54.5</sassVersion>
                     </configuration>
                 </plugin>
-
             </plugins>
         </pluginManagement>
     </build>
